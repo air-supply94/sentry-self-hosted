@@ -8,12 +8,12 @@
 ###############
 
 # mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
-mail.host: 'smtp'
-# mail.port: 25
-# mail.username: ''
-# mail.password: ''
-# mail.use-tls: false
-# mail.use-ssl: false
+mail.host: 'smtp.exmail.qq.com'
+mail.port: 465
+mail.username: 'joey@egenie.cn'
+mail.password: ''
+mail.use-ssl: true
+mail.from: 'joey@egenie.cn'
 
 # NOTE: The following 2 configs (mail.from and mail.list-namespace) are set
 #       through SENTRY_MAIL_HOST in sentry.conf.py so remove those first if
