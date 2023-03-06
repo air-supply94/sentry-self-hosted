@@ -10,10 +10,10 @@
 # mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 mail.host: 'smtp.exmail.qq.com'
 mail.port: 465
-mail.username: 'joey@egenie.cn'
+mail.username: 'phoenix@egenie.cn'
 mail.password: ''
 mail.use-ssl: true
-mail.from: 'joey@egenie.cn'
+mail.from: 'phoenix@egenie.cn'
 
 # NOTE: The following 2 configs (mail.from and mail.list-namespace) are set
 #       through SENTRY_MAIL_HOST in sentry.conf.py so remove those first if
@@ -78,6 +78,7 @@ releasefile.cache-path: '/data/releasefile-cache'
 #   secret_key: 'XXXXXXX'
 #   bucket_name: 's3-bucket-name'
 
+system.url-prefix: 'https://sentry.ejingling.cn'
 system.internal-url-prefix: 'http://web:9000'
 symbolicator.enabled: true
 symbolicator.options:
