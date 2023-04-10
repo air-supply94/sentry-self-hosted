@@ -7,9 +7,6 @@ if [[ -n "$MSYSTEM" ]]; then
   exit 1
 fi
 
-# postgres
-mkdir -p /data/postgresql/data
-
 source "$(dirname $0)/install/_lib.sh" # does a `cd .../install/`, among other things
 
 # Pre-flight. No impact yet.
